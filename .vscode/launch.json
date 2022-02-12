@@ -18,7 +18,7 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true
+            "console": "newExternalWindow"
         },
         {
             "name": "(gdb) Launch",
@@ -29,9 +29,9 @@
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole": true,
+            "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\Program Files\\mingw64\\bin\\gdb.exe", // 自己电脑的gdb
+            "miDebuggerPath": "D:\\mingw64\\bin\\gdb.exe", // 自己电脑的gdb
             "preLaunchTask": "echo", //这里和task.json的label相对应
             "setupCommands": [
                 {
