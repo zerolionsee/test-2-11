@@ -11,7 +11,7 @@ int main()
     printf("sum=%d\n",sum);
     return 0; */
     // 引入外部函数 extern;
-    /* char ch='A';//'""
+    /* char ch='A';'
     int  age=20;
     float weight  =2;
     double  c=3;
