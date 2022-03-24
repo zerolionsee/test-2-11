@@ -1,9 +1,15 @@
 {
-{
     "editor.fontSize": 16,
-    "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    // "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.profiles.windows": {
+    "GitBash": {
+        "path": "D:\\Program Files\\Git\\bin\\bash.exe",
+        "args": []
+         }
+    },
+"terminal.integrated.defaultProfile.windows": "GitBash",
     "files.autoSave": "onFocusChange",
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "workbench.iconTheme": "vs-seti",
     "editor.tabSize": 2,
     "workbench.startupEditor": "newUntitledFile",
     "workbench.statusBar.feedback.visible": false,
@@ -27,7 +33,7 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.openEditors.visible": 0,
     "editor.minimap.enabled": false,
-    "workbench.colorTheme": "Winter is Coming (Dark)",
+    "workbench.colorTheme": "One Dark Pro",
     "emmet.includeLanguages": {
         "vue-html": "html",
         "javascript": "javascriptreact"
@@ -39,5 +45,4 @@
     },
     "editor.renderControlCharacters": false,
     "winopacity.opacity": 230,
-}
 }
